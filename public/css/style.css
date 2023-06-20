@@ -1,0 +1,153 @@
+:root{
+    --whitesoft: #F9FBFC;
+    --redsoft:#f05252;
+    --red:#9b3535;
+    --darkred:#461818;
+    --navy: #101041;
+    --white: #FFFFFF;
+    --fwextrabold: 800;
+    --fwbold: 700;
+    --fwsemibold: 600;
+    --fwmedium: 500;
+    --fwregular: 400;
+    --fwlight: 300;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: var(--whitesoft);
+}
+
+.buttonlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
+.formlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    flex-direction: column;
+}
+
+.matchlist{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 40px;
+    flex-direction: column;
+}
+#per1{
+    margin-left: -182px;
+}
+.back-icon img {
+    width: 50px;
+    position: relative;
+    top: 36px;
+    left: 99px;
+    text-decoration: none;
+}
+.tombol{
+    width: 300px;
+    background: var(--redsoft);
+}
+.tombol:hover {
+    background: var(--red);
+}
+#add{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#save{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 50px;
+}
+/*navbar*/
+.navbar-brand{
+    font-weight: var(--fwbold);
+    size: 28px;
+    color: var(--navy);
+}
+.cashier-navbar{
+    padding: 30px;
+    background: var(--white);
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+}
+.navbar{
+    --bs-navbar-padding-y: 0;
+}
+/*Menu*/
+.primary-btn {
+    background: var(--redsoft);
+    display: inline-grid;
+    font-weight: var(--fwsemibold);
+    padding: 0px 25px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.primary-btn:hover {
+    background: var(--red);
+}
+img{
+    width: 200px;
+}
+
+/*Club*/
+.form-control{
+    border-radius: 50px;
+    padding: 12px 20px;
+    border: 0px;
+    background-color: #ededed;
+}
+.match-control{
+    padding: 12px 20px;
+    border: 0px;
+    background-color: #ededed;
+}
+
+select{
+    width: 300px!important;
+}
+input{
+    width: 300px!important;
+}
+.formlist form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formlist label {
+  text-align: center;
+  font-weight: var(--fwsemibold);
+}
+.button {
+    background: var(--redsoft);
+    font-weight: var(--fwsemibold);
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.button:hover {
+    background: var(--red);
+}
+.gambar{
+    display: flex; 
+    justify-content: center;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
