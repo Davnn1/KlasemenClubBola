@@ -13,14 +13,16 @@ Key features of the app:
 - Football Standings System
 - Jquery
 - PHPmyadmin
+- Responsive Design
 
 # Installation
 ## Windows:
 - Download or clone from this repository.
 - Unzip the folder.
 - Cut folder to your htdocs diretory.
-- Insert .sql database inside the folder to http://localhost/phpmyadmin/.
-- Run the website on the FHD resolution or Iphone XR or Iphone SE for the best experience.
+- Insert tes_coding.sql database inside the folder to http://localhost/phpmyadmin/.
+- Open terminal in the VSC or using CMD and get into this folder repository using cd
+- Run php artisan serve
 
 # License
 MIT  © Davin
